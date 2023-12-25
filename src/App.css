@@ -1,0 +1,91 @@
+/* Navbar styles */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .Links {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+  }
+  
+  .Links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .Profile {
+    margin-left: auto;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Login form styles */
+form {
+    max-width: 400px;
+    position: relative;
+    top: 2rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .Profile-1{
+    opacity: 0;
+  }
+
+  .hidden{opacity: 0;}
+
+  .Links-1{
+    margin-left: 32rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .Links-1 a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }

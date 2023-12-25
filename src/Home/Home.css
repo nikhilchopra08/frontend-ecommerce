@@ -1,0 +1,176 @@
+/* Add your CSS styles here */
+
+.top {
+  justify-content: space-between;
+  align-items: center;
+  top: 32px;
+  position: relative;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero img {
+  max-height: 60vh; 
+  max-width: 100%; /* Limits the image height to 40% of the viewport height */
+  width: 90vw;
+}
+
+.options-1 {
+  position: relative;
+  top: 16px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.option-1 {
+  margin: 0 10px;
+  width: 33%;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #FFD700, #FFA500);
+}
+
+.option-1:hover {
+  transform: scale(1.01);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+
+.link {
+    display: flex;
+    top: 28rem;
+    position: relative;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .options {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+  }
+  
+  .options::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, #FFD700, #FFA500);
+    transition: opacity 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .options:hover::before {
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    opacity: 0;
+  }
+  
+  
+  
+  .options p{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+
+  .Soaps p{
+    /* right: 25%; */
+    left: 50%;
+    top: 20%;
+    position: absolute;
+  }
+  
+
+.products {
+    display: flex;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the gap between cards */
+    margin: 20px; /* Add margin for spacing */
+  }
+  
+  .productCard {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-width: 200px;
+    margin: 0 10px 20px 10px; /* Adjust margin for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .productCard img {
+    max-width: 100%;
+    height: 125px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  .productCard p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .productCard h4 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .productCard button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .productCard button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Remove internal scrolling behavior */
+  .div-1 {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure cards are in a single row */
+    justify-content: center; /* Center horizontally */
+    gap: 20px; /* Adjust the gap between cards */
+    margin: auto;
+    overflow-x: auto;
+    padding-bottom: 20px; /* Add some space at the bottom */
+    width: 100%; /* Ensure the container takes full width */
+  }
+  
+  .title {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Set font weight */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px;
+    position: relative;
+    top: 36px; /* Add space below the heading */
+    /* Add more styles as needed */
+  }
+  
